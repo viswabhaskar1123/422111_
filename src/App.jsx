@@ -27,6 +27,7 @@ function App() {
   return (
     <div className="app">
       <h1>Task Manager</h1>
+      <p>ADD/REMOVE/COMPLETE TASKS</p>
       <form onSubmit={addTask} className="task-form">
         <input
           type="text"
